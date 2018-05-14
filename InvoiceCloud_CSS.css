@@ -1,0 +1,75 @@
+table {font-family: Helvetica;
+      border-collapse: collapse;
+      width: 100%;}
+
+th  {border: 1px solid #dddddd;}
+
+td  {text-align:center;
+    padding: 9px;}
+
+
+.blackNwhite   {text-transform: uppercase;
+                font-weight: bold;
+                font-size: 9pt;
+                color: white;
+                text-align: center;
+                background-color: black;
+                width: 25%;}
+
+.whiteNblack    {text-transform: uppercase;
+                font-weight: bold;
+                font-size: 9pt;
+                text-align: center;
+                background-color: white;
+                width: 25%;}
+
+.largeBlackNWhite   {text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 14pt;
+                    color: white;
+                    background-color: black;
+                    letter-spacing: 3px;}
+
+.largeGreyNBlack    {text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 14pt;
+                    color: black;
+                    background-color: lightgrey;}
+
+.CapitolLetterFont  {text-transform: capitalize;
+                    font-size: 9pt;
+                    text-align: center;}
+
+.blackbar           {text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 12pt;
+                    background-color: black;
+                    color: white;}
+
+.addressBox         {text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 12pt;
+                    text-align: left;}
+
+.borders            {border: 1px solid black;}
+
+.coloring           {background-color: lightgrey;}
+
+.wateruse           {text-align: center;
+                    font-weight: bold;
+                    font-size: 9pt;}
+
+.p1  {text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center}
+
+.p2  {text-align: center;
+    font-weight: bold;
+    font-size: 9pt;}
+
+p  {text-align: left;
+    font-weight: bold;
+    font-size: 9pt;
+    padding-left: 1em;
+    font-family: Helvetica;}

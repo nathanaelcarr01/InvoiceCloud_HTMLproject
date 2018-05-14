@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1">
+    <title>InvoiceCloud Test</title>
+    <link rel = stylesheet type = "text/css" href="InvoiceCloud_CSS.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <!-- Logo with address cell -->
+            <td width="20%"></br><img src="CoonRapids_Logo.png" alt="CoonRapids_logo" align="left"> <p align="Left">Invoice Cloud</br>
+                1655 Ruben M Torres Sr Blvd, Ste 101</br>
+                Brownsville TX 78526</p></td>
+            <td width="25%">
+                <!-- Quick reference, Location top right corner -->
+                <table>
+                    <tr>
+                        <td class="blackNwhite">customer number</td>
+                        <td class="blackNwhite">account number</td>
+                        <td class="blackNwhite">pay on or before</td>
+                    </tr>
+                    <tr>
+                        <td class="whiteNblack">123-456-789</td>
+                        <td class="whiteNblack">xxx-xxx-123</td>
+                        <td class="whiteNblack">04/15/2016</td>
+                    </tr>
+                    <tr>
+                        <td class="largeBlackNWhite" colspan="2">Amount Due</td>
+                        <td class="largeGreyNBlack"> $59.09 </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td><p class="CapitolLetterFont">Please Return This Portion With Your Payment</p>
+                <table>
+                    <tr class="blackbar" width="20%"><td>addressee:</td></tr>
+                    <tr ><td><p class="addressBox">
+                        Nathanael Carr</br>
+                        3005 Old Alice Rd Apt 100H</br>
+                        Brownsville, Tx 78521</br>
+                    </p></td></tr>
+                </table>
+                <img src="intelligent-mail-barcode5.jpg" alt="Barcode" align="center" height="35" width="400">
+                </br><p align="left" style="font-weight: bold">BILLING DATE: 4/19/2016</p>
+            </td>
+            <td>
+                <table>
+                    <tr><td class="blackbar">remit and make checks payable to:</td></tr>
+                    <tr>
+                        <td bgcolor="#d3d3d3" ><p class="addressBox">
+                            CITY OF COON RAPIDS</br>
+                            3005 Old Alice Rd Apt 100H</br>
+                            Brownsville, Tx 78521</br></p>
+                            <p style="text-align: right">SERVICE ADDRESS: Nowhere </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" bgcolor="black">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td class="blackNwhite">Customer Number</td>
+                        <td></td>
+                        <td class="blackNwhite">Account Number</td>
+                        <td></td>
+                        <td class="blackNwhite">Billing Period</td>
+                        <td></td>
+                        <td class="blackNwhite">Total Due</td>
+                        <td></td>
+                        <td class="blackNwhite">Due Date</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="whiteNblack">123-456-789</td>
+                        <td></td>
+                        <td class="whiteNblack">XXX-XXX-123</td>
+                        <td></td>
+                        <td class="whiteNblack">11/02/2015 to 04/19/2016</td>
+                        <td></td>
+                        <td class="whiteNblack">$59.09</td>
+                        <td></td>
+                        <td class="whiteNblack">04/19/2016</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: left;">
+                <p class="addressBox"> service address: no where </p>
+            </td>
+        </tr>
+        <!-- Bottom half of the invoice, comments below describe the items-->
+        <tr>
+            <!-- Current Water and Service Rates -->
+            <td>
+                <table>
+                    <tr>
+                        <td colspan="5" class="blackbar borders">
+                            Current Water Use</br>
+                            (Hundreds of Gallons)
+                        </td>
+                    </tr>
+                    <tr class="borders coloring wateruse" style="border-bottom: none">
+                        <td>Meter #</td>
+                        <td>Read Date</td>
+                        <td>Previous Reading</td>
+                        <td>Current Reading</td>
+                        <td>Usage</td>
+                    </tr>
+                    <tr class="borders coloring wateruse" style="border-top: none">
+                        <td>01234</br></br></td>
+                        <td>04/19/2015</br></br></td>
+                        <td>4350</br></br></td>
+                        <td>4350</br></br></td>
+                        <td>0</br></br></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5"></br></br></td>
+                    </tr>
+                    <!-- Service Rate -->
+                    <tr class="borders" style="border-bottom: none;">
+                        <td colspan="5">
+                            <p class="p2"> Residential Quarterly Service Rate</p>
+                            <p>Water:</br>
+                                MN State Testing Free: Flate rate of #1.50 per account</br>
+                                Base Fee: Flat rate of $15.00 per account</br></br>
+                                Tier 1: First 20,000 gallons - $2.00 per 1,000 gallons</br>
+                                Tier 2: 20,001 to 80,000 gallons - $2.45 per 1,000 gallons</br>
+                                Tier 3: 80,001 gallons and above - $2.65 per 1,000 gallons</br></br>
+                                Sewer:</br>
+                                Base fee plus winter quarter (or less) consumption @ $3.00/1,000 gallons</br></p>
+                        </td>
+                    </tr>
+                    <tr class="borders whiteNblack" style="border-bottom: none; border-top: none;">
+                        <td colspan="2"></td>
+                        <td>Base Fee</td>
+                        <td>Min.</td>
+                        <td>Max.</td>
+                    </tr>
+                    <tr class="borders whiteNblack" style="border-bottom: none; border-top: none;">
+                        <td colspan="2" style="text-align: left"> Single Family (SF)</td>
+                        <td>$24.00</td>
+                        <td>$46.50</td>
+                        <td>$100.50</td>
+                    </tr>
+                    <tr class="borders whiteNblack" style="border-bottom: none; border-top: none;">
+                        <td colspan="2" style="text-align: left">SF Seniors eligible prior to 1997</td>
+                        <td> 24.00</td>
+                        <td> 41.00</td>
+                        <td> 100.50</td>
+                    </tr>
+                    <tr class="borders whiteNblack" style="border-bottom: none; border-top: none;">
+                        <td colspan="2" style="text-align: left">Duplex per unit</td>
+                        <td> 18.75</td>
+                        <td> 41.25</td>
+                        <td> 95.25</td>
+                    </tr>
+                    <tr class="borders whiteNblack" style="border-bottom: none; border-top: none;">
+                        <td colspan="2" style="text-align: left">Townhomes/condos, mobile homes </br> per unit</td>
+                        <td> 11.50</td>
+                        <td> 33.50</td>
+                        <td> 87.90</td>
+                    </tr>
+                    <tr class="borders whiteNblack" style="border-bottom: none; border-top: none;">
+                        <td colspan="2" style="text-align: left">Apartments - sewer only</td>
+                        <td> 11.50</td>
+                        <td> 33.50</td>
+                        <td> 87.90</td>
+                    </tr>
+                    <tr class="borders whiteNblack" style="border-bottom: none; border-top: none;">
+                        <td colspan="2" style="text-align: left">Townhomes/apartments </br> common meter</td>
+                        <td> 8.00</td>
+                        <td> n/a</td>
+                        <td> n/a</td>
+                    </tr>
+                    <tr class="borders whiteNblack" style="border-bottom: none; border-top: none;">
+                        <td colspan="5"></br></td>
+                    </tr>
+                    <tr class="borders whiteNblack" style="border-bottom: none; border-top: none;">
+                        <td colspan="5" style="text-align: left ">Storm Drainage - Flat rate per quart per unit:</td>
+                    </tr>
+                    <tr class="borders whiteNblack" style="border-bottom: none; border-top: none;">
+                        <td style="text-align: left">Single family:</td>
+                        <td style="text-align: right"> $10.40</td>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="borders whiteNblack" style="border-bottom: none; border-top: none;">
+                        <td style="text-align: left">Medium density:</td>
+                        <td style="text-align: right"> 7.60</td>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="borders whiteNblack" style="border-bottom: none; border-top: none;">
+                        <td style="text-align: left">High density:</td>
+                        <td style="text-align: right"> 4.00</td>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="borders whiteNblack" style="border-bottom: none; border-top: none;">
+                        <td colspan="5"></br></td>
+                    </tr>
+                    <tr class="borders whiteNblack" style="border-top: none;">
+                        <td colspan="5">
+                            <p>Automatic withdrawel is available from your checking or saving accounts.</br>
+                                See reverse side of bill for automatic withdrawal form and other information.</br></p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <!-- This is for the Account Summary and Messages -->
+            <td valign="top">
+                <table class="borders">
+                    <tr class="blackbar">
+                        <td colspan="3">Account Summary</br></br></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></br></br></td>
+                    </tr>
+                    <tr class="whiteNblack">
+                        <td style="text-align: left">Billing</td>
+                        <td style="text-align: right">67.77</td>
+                        <td></td>
+                    </tr>
+                    <tr class="whiteNblack">
+                        <td style="text-align: left">Penalty</td>
+                        <td style="text-align: right">6.71</td>
+                        <td></td>
+                    </tr>
+                    <tr class="whiteNblack">
+                        <td style="text-align: left">Payment - Thank You</td>
+                        <td style="text-align: right">73.82</td>
+                        <td style="text-align: left">CR</td>
+                    </tr>
+                    <tr class="whiteNblack">
+                        <td style="text-align: right">Balance Forward:</td>
+                        <td style="text-align: right">0.00</td>
+                        <td></td>
+                    </tr>
+                    <tr class="whiteNblack">
+                        <td style="text-align: left">MN STATE TESTING FEE</td>
+                        <td style="text-align: right">1.59</td>
+                        <td></td>
+                    </tr>
+                    <tr class="whiteNblack">
+                        <td style="text-align: left">BASE FEE</td>
+                        <td style="text-align: right">16.00</td>
+                        <td></td>
+                    </tr>
+                    <tr class="whiteNblack">
+                        <td style="text-align: left">SEWER-BASE SURCHARGE</td>
+                        <td style="text-align: right">11.50</td>
+                        <td></td>
+                    </tr>
+                    <tr class="whiteNblack">
+                        <td style="text-align: left">SEWER MINIMUM CHARGE</td>
+                        <td style="text-align: right">22.40</td>
+                        <td></td>
+                    </tr>
+                    <tr class="whiteNblack">
+                        <td style="text-align: left">STORM DRAINAGE</td>
+                        <td style="text-align: right">7.60</td>
+                        <td></td>
+                    </tr>
+                    <tr class="whiteNblack">
+                        <td style="text-align: right">TOTAL CURRENT CHARGES:</td>
+                        <td style="text-align: right">59.09</td>
+                        <td></td>
+                    </tr>
+                    <tr class="whiteNblack">
+                        <td style="text-align: right">TOTAL AMOUNT DUE:</td>
+                        <td style="text-align: right">59.09</td>
+                        <td></td>
+                    </tr>
+                    <tr class="whiteNblack">
+                        <td colspan="3" style="text-align: center">
+                            <p class="p1"></br>A 10% Penalty is applied if payment is not recieved on</br>
+                                or before the 20th of the month in which it is due</br></p>
+                            </br></br></br></br></br></br></br></br></br></br>
+                        </td>
+                    </tr>
+                    <tr class="blackbar">
+                        <td colspan="3"> Messages</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"> </br></br></br></br></br></br></br></br></br></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <p>City of Coon Rapids</p>
+</body>
+</html>
