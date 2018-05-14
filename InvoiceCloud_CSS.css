@@ -59,14 +59,10 @@ td  {text-align:center;
                     font-weight: bold;
                     font-size: 9pt;}
 
-.p1  {text-transform: uppercase;
-    font-style: italic;
-    font-weight: bold;
-    text-align: center}
-
-.p2  {text-align: center;
-    font-weight: bold;
-    font-size: 9pt;}
+.AccountMessage  {text-transform: uppercase;
+                 font-style: italic;
+                 font-weight: bold;
+                 text-align: center}
 
 p  {text-align: left;
     font-weight: bold;
